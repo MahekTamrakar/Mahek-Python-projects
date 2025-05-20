@@ -1,7 +1,7 @@
 #Project 3 Contact Book
 #mysql connectivity
 import mysql.connector as mycon
-mydb = mycon.connect(host="localhost" , user="root" , password="radheradhe" )
+mydb = mycon.connect(host="localhost" , user="root" , password=" " )
 mycur = mydb.cursor()
 #creating database
 mycur.execute("create database if not exists CB")
